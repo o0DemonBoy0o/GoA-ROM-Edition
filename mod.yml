@@ -1,9 +1,15 @@
-assets:
-title: GoA ROM Edition (New Experimental Version)
-description: GoA, but with a lot of stuff done through ROM editing to reduce workload on Lua.
+title: GoA ROM Edition - PC (New Experimental Version)
+description: GoA, but with a lot of stuff done through ROM editing to reduce workload on Lua. Edited for better PC compatability by DA.
 assets:
 #Jiminy Journal New Flag Requirements
 - name: menu/fm/jiminy.bar
+  multi:
+  - name: msg/fr/jiminy.bar
+  - name: msg/gr/jiminy.bar
+  - name: msg/it/jiminy.bar
+  - name: msg/sp/jiminy.bar
+  - name: msg/uk/jiminy.bar
+  - name: msg/us/jiminy.bar
   method: binarc
   source:
   - name: worl
@@ -12,19 +18,11 @@ assets:
     source:
     - name: worl.bin
 #Detection Saber Model
-- name: obj/W_EX010_Y0.a.fm
-  method: copy
-  source:
-  - name: obj/W_EX010_Y0.a.fm
 - name: obj/W_EX010_Y0.mdlx
   method: copy
   source:
   - name: obj/W_EX010_Y0.mdlx
 #Frontier of Ultima Model
-- name: obj/W_EX010_Z0.a.fm
-  method: copy
-  source:
-  - name: obj/W_EX010_Z0.a.fm
 - name: obj/W_EX010_Z0.mdlx
   method: copy
   source:
@@ -80,22 +78,6 @@ assets:
   method: imd
   source:
   - name: itempic/DUMMY 16 Item.png
-- name: itempic/item-221.imd #Lamp Charm
-  method: copy
-  source:
-  - name: itempic/Lamp Charm.imd
-- name: itempic/item-222.imd #Ukulele Charm
-  method: copy
-  source:
-  - name: itempic/Ukulele Charm.imd
-- name: itempic/item-223.imd #Feather Charm
-  method: copy
-  source:
-  - name: itempic/Feather Charm.imd
-- name: itempic/item-224.imd #Baseball Charm
-  method: copy
-  source:
-  - name: itempic/Baseball Charm.imd
 - name: itempic/item-266.imd #Valor Form
   method: copy
   source:
@@ -132,22 +114,6 @@ assets:
   method: copy
   source:
   - name: itempic/FAKE_new.imd
-- name: itempic/item-242.imd #Promise Charm
-  method: copy
-  source:
-  - name: itempic/Promise Charm.imd
-- name: itempic/item-321.imd #Proof of Connection
-  method: copy
-  source:
-  - name: itempic/Proof of Connection.imd
-- name: itempic/item-322.imd #Proof of Nonexistence
-  method: copy
-  source:
-  - name: itempic/Proof of Nonexistence.imd
-- name: itempic/item-323.imd #Proof of Peace
-  method: copy
-  source:
-  - name: itempic/Proof of Peace.imd
 - name: itempic/item-324.imd #Fire
   method: imd
   source:
@@ -172,32 +138,6 @@ assets:
   method: imd
   source:
   - name: itempic/Reflect.png
-#GoA World Icons
-- name: map/jp/hb26.map
-  multi:
-  - name: map/us/hb26.map
-  - name: map/uk/hb26.map
-  - name: map/it/hb26.map
-  - name: map/sp/hb26.map
-  - name: map/gr/hb26.map
-  - name: map/fr/hb26.map
-  - name: map/fm/hb26.map
-  method: copy
-  source:
-  - name: hb26.map
-#GoA Picture in SP Terminal
-- name: file/jp/tr_tm.2ld
-  multi:
-  - name: file/us/tr_tm.2ld
-  - name: file/uk/tr_tm.2ld
-  - name: file/it/tr_tm.2ld
-  - name: file/sp/tr_tm.2ld
-  - name: file/gr/tr_tm.2ld
-  - name: file/fr/tr_tm.2ld
-  - name: file/fm/tr_tm.2ld
-  method: copy
-  source:
-  - name: tr_tm.2ld
 #Implement New Pictures and Stats
 - name: 03system.bin
   method: binarc
@@ -351,9 +291,12 @@ assets:
     source:
     - name: 00progress.bin/link.bin
 #Texts & Libretto
-- name: msg/jp/sys.bar
+- name: msg/us/sys.bar
   multi:
-  - name: msg/us/sys.bar
+  - name: msg/fr/sys.bar
+  - name: msg/gr/sys.bar
+  - name: msg/it/sys.bar
+  - name: msg/sp/sys.bar
   method: binarc
   source:
   - name: sys
@@ -362,9 +305,12 @@ assets:
     source:
     - name: msg/sys.yml
       language: en
-- name: msg/jp/al.bar
+- name: msg/us/al.bar
   multi:
-  - name: msg/us/al.bar
+  - name: msg/fr/al.bar
+  - name: msg/gr/al.bar
+  - name: msg/it/al.bar
+  - name: msg/sp/al.bar
   method: binarc
   source:
   - name: al
@@ -373,9 +319,12 @@ assets:
     source:
     - name: msg/al.yml
       language: en
-- name: msg/jp/dc.bar
+- name: msg/us/dc.bar
   multi:
-  - name: msg/us/dc.bar
+  - name: msg/fr/dc.bar
+  - name: msg/gr/dc.bar
+  - name: msg/it/dc.bar
+  - name: msg/sp/dc.bar
   method: binarc
   source:
   - name: dc
@@ -384,9 +333,12 @@ assets:
     source:
     - name: msg/dc.yml
       language: en
-- name: msg/jp/hb.bar
+- name: msg/us/hb.bar
   multi:
-  - name: msg/us/hb.bar
+  - name: msg/fr/hb.bar
+  - name: msg/gr/hb.bar
+  - name: msg/it/hb.bar
+  - name: msg/sp/hb.bar
   method: binarc
   source:
   - name: hb
@@ -395,9 +347,12 @@ assets:
     source:
     - name: msg/hb.yml
       language: en
-- name: msg/jp/he.bar
+- name: msg/us/he.bar
   multi:
-  - name: msg/us/he.bar
+  - name: msg/fr/he.bar
+  - name: msg/gr/he.bar
+  - name: msg/it/he.bar
+  - name: msg/sp/he.bar
   method: binarc
   source:
   - name: he
@@ -406,9 +361,12 @@ assets:
     source:
     - name: msg/he.yml
       language: en
-- name: msg/jp/nm.bar
+- name: msg/us/nm.bar
   multi:
-  - name: msg/us/nm.bar
+  - name: msg/fr/nm.bar
+  - name: msg/gr/nm.bar
+  - name: msg/it/nm.bar
+  - name: msg/sp/nm.bar
   method: binarc
   source:
   - name: nm
@@ -417,9 +375,12 @@ assets:
     source:
     - name: msg/nm.yml
       language: en
-- name: msg/jp/tr.bar
+- name: msg/us/tr.bar
   multi:
-  - name: msg/us/tr.bar
+  - name: msg/fr/tr.bar
+  - name: msg/gr/tr.bar
+  - name: msg/it/tr.bar
+  - name: msg/sp/tr.bar
   method: binarc
   source:
   - name: tr
@@ -928,16 +889,16 @@ assets:
     method: spawnpoint
     source:
     - name: ard/lk13/m_11.yml
-- name: ard/lk14.ard #Scar's Darkness (BGM Change)
-  multi:
-  - name: ard/us/lk14.ard
-  method: binarc
-  source:
-  - name: evt
-    type: areadatascript
-    method: areadatascript
-    source:
-    - name: ard/lk14/evt.script
+#- name: ard/lk14.ard #Scar's Darkness (BGM Change)
+#  multi:
+#  - name: ard/us/lk14.ard
+#  method: binarc
+#  source:
+#  - name: evt
+#    type: areadatascript
+#    method: areadatascript
+#    source:
+#    - name: ard/lk14/evt.script
 - name: ard/lm02.ard #Undersea Courtyard (GoA Warp)
   multi:
   - name: ard/us/lm02.ard
