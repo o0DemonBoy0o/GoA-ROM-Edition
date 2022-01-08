@@ -4,12 +4,12 @@ assets:
 #Jiminy Journal New Flag Requirements
 - name: menu/fm/jiminy.bar
   multi:
-  - name: msg/fr/jiminy.bar
-  - name: msg/gr/jiminy.bar
-  - name: msg/it/jiminy.bar
-  - name: msg/sp/jiminy.bar
-  - name: msg/uk/jiminy.bar
-  - name: msg/us/jiminy.bar
+  - name: menu/fr/jiminy.bar
+  - name: menu/gr/jiminy.bar
+  - name: menu/it/jiminy.bar
+  - name: menu/sp/jiminy.bar
+  - name: menu/uk/jiminy.bar
+  - name: menu/us/jiminy.bar
   method: binarc
   source:
   - name: worl
