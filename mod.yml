@@ -2,14 +2,15 @@ title: GoA ROM Edition - PC
 description: GoA, but with a lot of stuff done through ROM editing to reduce workload on Lua. Edited for better PC compatability by DA.
 assets:
 #Jiminy Journal New Flag Requirements
-- name: menu/fm/jiminy.bar
-  multi:
-  - name: menu/fr/jiminy.bar
-  - name: menu/gr/jiminy.bar
-  - name: menu/it/jiminy.bar
-  - name: menu/sp/jiminy.bar
-  - name: menu/uk/jiminy.bar
-  - name: menu/us/jiminy.bar
+- name: menu/us/jiminy.bar
+  #commented out for now due to some weirdness with build_from_mm
+  #multi:
+  #- name: menu/fm/jiminy.bar
+  #- name: menu/fr/jiminy.bar
+  #- name: menu/gr/jiminy.bar
+  #- name: menu/it/jiminy.bar
+  #- name: menu/sp/jiminy.bar
+  #- name: menu/uk/jiminy.bar
   method: binarc
   source:
   - name: worl
