@@ -1,16 +1,16 @@
-title: GoA ROM Edition - PC
+title: GoA ROM Edition - PC 2
 description: GoA, but with a lot of stuff done through ROM editing to reduce workload on Lua. Edited for better PC compatability by DA.
 assets:
 #Jiminy Journal New Flag Requirements
 - name: menu/us/jiminy.bar
   #commented out for now due to some weirdness with build_from_mm
-  #multi:
-  #- name: menu/fm/jiminy.bar
-  #- name: menu/fr/jiminy.bar
-  #- name: menu/gr/jiminy.bar
-  #- name: menu/it/jiminy.bar
-  #- name: menu/sp/jiminy.bar
-  #- name: menu/uk/jiminy.bar
+  multi:
+  - name: menu/fm/jiminy.bar
+  - name: menu/fr/jiminy.bar
+  - name: menu/gr/jiminy.bar
+  - name: menu/it/jiminy.bar
+  - name: menu/sp/jiminy.bar
+  - name: menu/uk/jiminy.bar
   method: binarc
   source:
   - name: worl
@@ -1833,3 +1833,313 @@ assets:
     source:
     - name: ard/wm00/evt.script
 
+#PC Remastered files
+- name: remastered/file/us/tr_tm.2ld/US_tr_tm_2ld2.png #SP GoA computer image
+  method: copy
+  source:
+  - name: remastered/file/us/tr_tm.2ld/US_tr_tm_2ld2.png
+- name: remastered/itempic/item-000.imd/-0.dds #Unused Icon
+  method: copy
+  source:
+  - name: remastered/itempic/item-000.imd/-0.dds
+- name: remastered/itempic/item-266.imd/-0.dds #Valor Icon
+  method: copy
+  source:
+  - name: remastered/itempic/item-266.imd/-0.dds
+- name: remastered/itempic/item-267.imd/-0.dds #Master Icon
+  method: copy
+  source:
+  - name: remastered/itempic/item-267.imd/-0.dds
+- name: remastered/itempic/item-268.imd/-0.dds #Wisdom Icon
+  method: copy
+  source:
+  - name: remastered/itempic/item-268.imd/-0.dds
+- name: remastered/itempic/item-320.imd/-0.dds #Limit Icon
+  method: copy
+  source:
+  - name: remastered/itempic/item-320.imd/-0.dds
+- name: remastered/itempic/item-320.imd/-0.dds #Limit Icon
+  method: copy
+  source:
+  - name: remastered/itempic/item-320.imd/-0.dds
+#GoA Portal icons and 100AW door
+- name: remastered/map/hb26.map/-19.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-19.dds
+- name: remastered/map/hb26.map/-20.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-20.dds
+- name: remastered/map/hb26.map/-70.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-70.dds
+- name: remastered/map/hb26.map/-71.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-71.dds
+- name: remastered/map/hb26.map/-72.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-72.dds
+- name: remastered/map/hb26.map/-73.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-73.dds
+- name: remastered/map/hb26.map/-74.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-74.dds
+- name: remastered/map/hb26.map/-75.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-75.dds
+- name: remastered/map/hb26.map/-76.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-76.dds
+- name: remastered/map/hb26.map/-77.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-77.dds
+- name: remastered/map/hb26.map/-78.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-78.dds
+- name: remastered/map/hb26.map/-79.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-79.dds
+- name: remastered/map/hb26.map/-80.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-80.dds
+- name: remastered/map/hb26.map/-81.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-81.dds
+- name: remastered/map/hb26.map/-82.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-82.dds
+- name: remastered/map/hb26.map/-83.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-83.dds
+- name: remastered/map/hb26.map/-84.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-84.dds
+- name: remastered/map/hb26.map/-85.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-85.dds
+- name: remastered/map/hb26.map/-86.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-86.dds
+- name: remastered/map/hb26.map/-87.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-87.dds
+- name: remastered/map/hb26.map/-88.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-88.dds
+- name: remastered/map/hb26.map/-89.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-89.dds
+- name: remastered/map/hb26.map/-90.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-90.dds
+- name: remastered/map/hb26.map/-91.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-91.dds
+- name: remastered/map/hb26.map/-92.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-92.dds
+- name: remastered/map/hb26.map/-93.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-93.dds
+- name: remastered/map/hb26.map/-94.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-94.dds
+- name: remastered/map/hb26.map/-95.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-95.dds
+- name: remastered/map/hb26.map/-96.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-96.dds
+- name: remastered/map/hb26.map/-97.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-97.dds
+- name: remastered/map/hb26.map/-98.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-98.dds
+- name: remastered/map/hb26.map/-99.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-99.dds
+- name: remastered/map/hb26.map/-100.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-100.dds
+- name: remastered/map/hb26.map/-101.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-101.dds
+- name: remastered/map/hb26.map/-102.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-102.dds
+- name: remastered/map/hb26.map/-103.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-103.dds
+- name: remastered/map/hb26.map/-104.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-104.dds
+- name: remastered/map/hb26.map/-105.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-105.dds
+- name: remastered/map/hb26.map/-106.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-106.dds
+- name: remastered/map/hb26.map/-107.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-107.dds
+- name: remastered/map/hb26.map/-108.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-108.dds
+- name: remastered/map/hb26.map/-109.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-109.dds
+- name: remastered/map/hb26.map/-110.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-110.dds
+- name: remastered/map/hb26.map/-111.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-111.dds
+- name: remastered/map/hb26.map/-112.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-112.dds
+- name: remastered/map/hb26.map/-113.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-113.dds
+- name: remastered/map/hb26.map/-114.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-114.dds
+- name: remastered/map/hb26.map/-115.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-115.dds
+- name: remastered/map/hb26.map/-116.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-116.dds
+- name: remastered/map/hb26.map/-117.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-117.dds
+- name: remastered/map/hb26.map/-118.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-118.dds
+- name: remastered/map/hb26.map/-119.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-119.dds
+- name: remastered/map/hb26.map/-120.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-120.dds
+- name: remastered/map/hb26.map/-121.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-121.dds
+- name: remastered/map/hb26.map/-122.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-122.dds
+- name: remastered/map/hb26.map/-123.dds
+  method: copy
+  source:
+  - name: remastered/map/hb26.map/-123.dds
+- name: remastered/msg/us/fontimage.bar/US_fontimage_bar2.png #Small Drive Form icon
+  multi:
+  - name: remastered/msg/fr/fontimage.bar/FR_fontimage_bar2.png
+  - name: remastered/msg/gr/fontimage.bar/GR_fontimage_bar2.png
+  - name: remastered/msg/it/fontimage.bar/IT_fontimage_bar2.png
+  - name: remastered/msg/sp/fontimage.bar/SP_fontimage_bar2.png
+  method: copy
+  source:
+  - name: remastered/msg/us/fontimage.bar/US_fontimage_bar2.png
+#Remastered Fake
+- name: remastered/obj/W_EX010_WI.a.us/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_WI.a.us/-0.dds
+- name: remastered/obj/W_EX010_WI.a.us/se/obj/se500
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_WI.a.us/se/obj/se500
+- name: remastered/obj/W_EX010_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_WI.mdlx/-0.dds
+#Remastered Detection Saber
+- name: remastered/obj/W_EX010_Y0.a.us/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_Y0.a.us/-0.dds
+- name: remastered/obj/W_EX010_Y0.a.us/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_Y0.a.us/-1.dds
+- name: remastered/obj/W_EX010_Y0.a.us/se/obj/se502
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_Y0.a.us/se/obj/se502
+- name: remastered/obj/W_EX010_Y0.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_Y0.mdlx/-0.dds
+#Remastered Edge of Ultima
+- name: remastered/obj/W_EX010_Z0.a.us/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_Z0.a.us/-0.dds
+- name: remastered/obj/W_EX010_Z0.a.us/-1.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_Z0.a.us/-1.dds
+- name: remastered/obj/W_EX010_Z0.a.us/se/obj/se502
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_Z0.a.us/se/obj/se502
+- name: remastered/obj/W_EX010_Z0.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/obj/W_EX010_Z0.mdlx/-0.dds
